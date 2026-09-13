@@ -1,0 +1,9 @@
+{
+  "_comment": "Vercel Cron Configuration: Vercel Hobby (free tier) limits Cron jobs to once per day (e.g. '0 0 * * *'). Hourly execution ('0 * * * *') requires a Vercel Pro plan. If deploying on Hobby free tier, update the schedule to '0 0 * * *' to satisfy Vercel free-tier limits.",
+  "crons": [
+    {
+      "path": "/api/cron/check-ghosted",
+      "schedule": "0 * * * *"
+    }
+  ]
+}
